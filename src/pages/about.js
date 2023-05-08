@@ -16,7 +16,7 @@ function About(props) {
         <meta name="description" content={description} />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
-        <meta property="og:url" content="https://guilhermedinardi.dev/about/" />
+        <meta property="og:url" content="https://guilhermedinardi/about/" />
       </Head>
 
       <section className={styles.section__about}>
@@ -54,6 +54,11 @@ function About(props) {
             deliver innovative and high-quality solutions to my clients and end-users 
             alike.
           </p>
+          <p>
+            Let's talk
+            For contact or to talk about your project, drop me a line:
+            gdinardito@gmail.com 
+          </p>
         </div>
       </section>
 
@@ -66,15 +71,6 @@ function About(props) {
     </div>
   )
 }
-
-// export async function getStaticProps() {
-//   return {
-//     props: {
-//       title: 'About | Guilherme Dinardi',
-//       description: 'A little more about Guilherme Dinardi',
-//     },
-//   }
-
 
 About.Layout = Main
 

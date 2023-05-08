@@ -13,7 +13,7 @@ function HomePage(props) {
         <meta content={title} property="og:title" />
         <meta content={description} name="description" />
         <meta content={description} property="og:description" />
-        <meta content="https://guilhermedinardi.dev/" property="og:url" />
+        <meta content="https://guilhermedinardi/" property="og:url" />
       </Head>
 
       <h1 className={styles.home__title}>Guilherme Dinardi</h1>
@@ -22,15 +22,6 @@ function HomePage(props) {
       </p>
     </div>
   )
-}
-
-export async function getStaticProps() {
-  return {
-    props: {
-      title: 'Guilherme Dinardi',
-      description: 'Frontend Developer',
-    },
-  }
 }
 
 HomePage.Layout = Main

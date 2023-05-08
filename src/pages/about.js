@@ -56,8 +56,8 @@ function About(props) {
           </p>
           <p>
             Let's talk
-            For contact or to talk about your project, drop me a line:
-            gdinardito@gmail.com 
+            For contact or to talk about your project, 
+            drop me a line:<a href="mailto:gdinardito@gmail.com">gdinardito@gmail.com</a> 
           </p>
         </div>
       </section>

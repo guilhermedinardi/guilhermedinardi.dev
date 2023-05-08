@@ -18,7 +18,7 @@ function HomePage(props) {
 
       <h1 className={styles.home__title}>Guilherme Dinardi</h1>
       <p className={styles.home__description}>
-        Frontend Developer
+        Frontend Developer & Freelancer
       </p>
     </div>
   )

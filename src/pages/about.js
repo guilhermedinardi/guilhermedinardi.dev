@@ -54,10 +54,12 @@ function About(props) {
             deliver innovative and high-quality solutions to my clients and end-users 
             alike.
           </p>
-          <p>
+          <h3>
             Let's talk
-            For contact or to talk about your project, drop me a line:
-            gdinardito@gmail.com 
+          </h3>
+          <p>
+            For contact or to talk about your project, 
+            drop me a line:<a href="mailto:gdinardito@gmail.com"> gdinardito@gmail.com</a> 
           </p>
         </div>
       </section>

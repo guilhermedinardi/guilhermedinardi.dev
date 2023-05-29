@@ -1,12 +1,22 @@
+import React from 'react'
+
 import Head from 'next/head'
 import Image from 'next/image'
 
 import CareerItem from '../components/CareerItem/CareerItem'
 import Main from '../layout/Main'
 import items from '../data/about'
+
 import styles from '../styles/About.module.css'
 
-function About(props) {
+type AboutProps = {
+  title: string,
+  description: string,
+  children: React.ReactNode
+
+}
+
+function About(props: AboutProps ) {
   const { title, description } = props
 
   return (
@@ -16,7 +26,7 @@ function About(props) {
         <meta name="description" content={description} />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
-        <meta property="og:url" content="https://guilhermedinardi/about/" />
+        <meta property="og:url" content="guilhermedinardi - about" />
       </Head>
 
       <section className={styles.section__about}>

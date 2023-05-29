@@ -3,7 +3,14 @@ import { enUS } from 'date-fns/locale'
 
 import styles from './CareerItem.module.css'
 
-const CareerItem = ({ occupation, company, startDate, endDate }) => {
+type CareerProps = {
+  occupation: string,
+  company: string,
+  startDate: string,
+  endDate: string,
+}
+
+const CareerItem = ({ occupation, company, startDate, endDate }: CareerProps) => {
   const formatDate = (date) =>
     format(parseISO(date), 'MMM yyyy', { locale: enUS })
 

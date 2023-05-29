@@ -13,7 +13,7 @@ function HomePage(props) {
         <meta content={title} property="og:title" />
         <meta content={description} name="description" />
         <meta content={description} property="og:description" />
-        <meta content="https://guilhermedinardi/" property="og:url" />
+        <meta content="guilhermedinardi" property="og:url" />
       </Head>
 
       <h1 className={styles.home__title}>Guilherme Dinardi</h1>

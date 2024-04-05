@@ -9,7 +9,7 @@ export default function About() {
         <Avatar className="rounded-none size-max">
           <AvatarImage
             src="/assets/icons/profile.svg"
-            className="rounded-lg h-[400px] lg:h-[510px] aspect-auto"
+            className="rounded-lg h-[350px] lg:h-[510px] aspect-auto"
           />
         </Avatar>
         <div className="flex flex-col gap-5 lg:max-w-lg text-medium-grey text-base leading-relaxed text-left">
@@ -32,7 +32,7 @@ export default function About() {
             impactantes e intuitivas que não apenas atendam às expectativas, mas
             também encantem os usuários.
           </p>
-          <Button className="inline-flex justify-center whitespace-nowrap focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 bg-white-default font-bold text-dark-grey shadow hover:bg-white-default/90 h-9 items-center gap-1 p-5 text-base hover:scale-105 hover:shadow-xl transition duration-300 ease-in-out">
+          <Button className="w-full md:w-auto inline-flex justify-center whitespace-nowrap focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 bg-white-default font-bold text-dark-grey shadow hover:bg-white-default/90 md:py-2 md:px-8 text-sm md:text-base hover:scale-105 hover:shadow-xl transition duration-300 ease-in-out">
             <a href="/contato">Vamos Construir seu Futuro Digital!</a>
           </Button>
         </div>

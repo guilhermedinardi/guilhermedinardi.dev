@@ -1,7 +1,7 @@
 type SkillCategory = {
-  id: number;
-  name: string;
-};
+  id: number
+  name: string
+}
 
 const categories: SkillCategory[] = [
   {

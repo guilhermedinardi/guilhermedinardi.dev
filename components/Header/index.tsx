@@ -16,7 +16,7 @@ const Header = () => {
   }
 
   const handleMenuItemClick = () => {
-    setMenuOpen(false);
+    setMenuOpen(false)
   }
 
   return (

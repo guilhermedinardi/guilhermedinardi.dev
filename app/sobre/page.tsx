@@ -6,13 +6,13 @@ export default function About() {
   return (
     <section className="flex flex-col">
       <div className="mx-auto flex flex-col lg:flex-row justify-between gap-12 lg:gap-24 overflow-hidden lg:py-8 ">
-        <Avatar className="rounded-none size-max">
+        <Avatar className="flex rounded-none self-baseline lg:max-w-none lg:size-max w-full h-500">
           <AvatarImage
             src="/assets/icons/profile.svg"
-            className="rounded-lg h-[350px] lg:h-[510px] aspect-auto"
+            className="rounded-lg h-[510px] aspect-auto"
           />
         </Avatar>
-        <div className="flex flex-col gap-5 lg:max-w-lg text-medium-grey text-base leading-relaxed text-left">
+        <div className="flex flex-col gap-7 lg:max-w-lg text-medium-grey text-base leading-relaxed text-left">
           <h1 className="text-3xl mb-5 font-extrabold text-white-default">
             Bem-vindo ao meu universo digital!
           </h1>

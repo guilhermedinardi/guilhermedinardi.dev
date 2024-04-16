@@ -1,6 +1,13 @@
 const career = [
   {
     occupation: 'Desenvolvedor Front End',
+    company: 'Spirit Shop',
+    companyUrl: 'https://spiritshop.com.br',
+    startDate: '2023-04-15',
+    endDate: ''
+  },
+  {
+    occupation: 'Desenvolvedor Front End',
     company: 'Grupo Impulse',
     startDate: '2023-06-01',
     endDate: '2023-12-23',
